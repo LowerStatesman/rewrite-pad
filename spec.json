@@ -1,0 +1,50 @@
+{
+    "name":  "rewrite-pad",
+    "logo":  "✏️",
+    "exe":  "RewritePad.exe",
+    "desc":  "Free, open-source text rewriting workbench for Windows — shorten, formalize, simplify with a local LLM. 100 MB portable, offline, MIT.",
+    "topics":  [
+                   "text-rewriting",
+                   "paraphrasing",
+                   "local-ai",
+                   "llm",
+                   "writing-tools",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "tone-presets",
+                   "diff-view",
+                   "clipboard",
+                   "offline",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Action buttons** — shorten, formalize, simplify, expand and fix grammar run against any local llama.cpp server",
+                     "✅ **Diff review** — changes shown as inline diffs; accept per hunk instead of trusting a full overwrite",
+                     "✅ **Tone presets** — professional, friendly and plain-English modes saved with their own instructions",
+                     "✅ **Clipboard round trip** — hotkey takes the selection, rewrites it and puts the result back",
+                     "✅ **Style memory** — a short rules box reminds the model of your conventions every run",
+                     "✅ **Project history** — every rewrite kept with before and after, searchable",
+                     "✅ **100 MB self-contained exe** — runtime bundled, model runs locally, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **rewrite-pad** | Grammarly | ChatGPT web | LanguageTool |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Paid premium | Free tier | Free tiers |",
+                    "| Open source | **Yes** | No | No | Partial",
+                    "| Text stays local | **Yes** | Upload | Upload | Partial",
+                    "| Arbitrary rewrite actions | **Yes** | Limited | Chatty | No",
+                    "| Per-hunk diff accept | **Yes** | No | No | Partial",
+                    "| Portable, no install | **Yes, 100 MB** | Extension | Browser | Extension"
+                ],
+    "faqQ":  "offline paraphrasing tool for Windows that does not upload my text?",
+    "faqA":  "Web paraphrasers upload whatever you paste and gate the good modes behind a subscription. rewrite-pad talks to a local LLM server, shows rewrites as reviewable diffs and keeps every draft in local history. It is a 100 MB portable exe, MIT, and works with the network unplugged.",
+    "s1":  "Dark pad (#121418, blue #3B82F6): original text left pane, rewritten right pane with green and red inline diffs, accept all and keep original buttons beneath.",
+    "s2":  "Tone shelf: five preset cards with descriptions, custom rules box expanded showing terminology list, model connection chip reading localhost ready.",
+    "s3":  "History list: twenty rewrites with timestamps and reading-time deltas, search field, reopen in compare action on the hovered row."
+}
